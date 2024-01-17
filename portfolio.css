@@ -32,3 +32,17 @@ li {
     font-size: 25px;
     margin: 20px 20px 0 20px;
 }
+a {
+    color: black;
+    text-decoration: none;
+    transition: all ease-in-out 200ms;
+}
+a:hover {
+    color: var(--primary-color);
+}
+.hero{
+    background-color: var(--background-color);
+    display: block;
+    padding: 80px 10px;
+    text-align: center;
+}
