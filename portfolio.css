@@ -3,6 +3,7 @@
     --default-font-family: "Nunito", sans-serif;
     --primary-color: #e83c75;
     --secondary-color: #a2a8d3;
+    --third-color: #faeae1;
     --background-color: #e9a7af;
     --container-background-color: #a294c7;
 }
@@ -52,4 +53,15 @@ a:hover {
     font-size: 20px;
     font-weight: normal;
     line-height: 2;
+}
+.btn-branding {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--third-color);
+    border-radius: 8px;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 12px 20px;
+    transition: all ease-in-out 200ms;
 }
