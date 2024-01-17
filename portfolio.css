@@ -65,3 +65,19 @@ a:hover {
     padding: 12px 20px;
     transition: all ease-in-out 200ms;
 }
+.btn-branding:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+.contact-me {
+    background-color: var(--primary-color);
+    padding: 50px;
+    transition: all ease-in-out 200ms;
+}
+.contact-button {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: monospace;
+    padding: 12px 30px;
+    transition: all ease-in-out 200ms;
+}
