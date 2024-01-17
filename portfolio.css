@@ -90,3 +90,26 @@ a:hover {
     padding: 48px 10px;
     text-align: left;
 }
+.about-hero-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+}
+.about-hero-text h2{
+    line-height: 1.8;
+    font-size: 20px;
+}
+.fa-linkedin {
+    padding-right: 15px;
+}
+.about-hero-img{
+    max-width: 350px;
+    border-radius: 25px;
+}
+.portfolio-button{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 40px;
+    margin: 70px 0 40px;
+}
