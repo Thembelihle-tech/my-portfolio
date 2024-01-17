@@ -1,9 +1,9 @@
 :root {
     --heading-font-family: "Playfair Display", sans-serif;
     --default-font-family: "Nunito", sans-serif;
-    --primary-color: #e9a7af;
+    --primary-color: #e83c75;
     --secondary-color: #a2a8d3;
-    --background-color: #282627;
+    --background-color: #e9a7af;
     --container-background-color: #a294c7;
 }
 body {
@@ -45,4 +45,11 @@ a:hover {
     display: block;
     padding: 80px 10px;
     text-align: center;
+}
+.hero h2 {
+    color: var(--third-color);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;
 }
