@@ -81,3 +81,12 @@ a:hover {
     padding: 12px 30px;
     transition: all ease-in-out 200ms;
 }
+.contact-button:hover {
+    background-color: white;
+    color: var(--secondary-color);
+}
+.about-hero {
+    background-color: var(--background-color);
+    padding: 48px 10px;
+    text-align: left;
+}
